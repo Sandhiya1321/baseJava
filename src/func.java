@@ -9,7 +9,7 @@ public class func {
         int a,b,c;
         System.out.print("enter a:");
         a =scan.nextInt();
-        System.out.println("enter b:");
+        System.out.print("enter b:");
         b=scan.nextInt();
         c=a+b;
         System.out.println("the sum is: "+c);
