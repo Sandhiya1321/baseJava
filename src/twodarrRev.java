@@ -11,7 +11,6 @@ public class twodarrRev {
             }
         }
         int cols=a[0].length;
-
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a.length;j++){
                 System.out.print(a[i][j]+" ");
@@ -22,16 +21,11 @@ public class twodarrRev {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length/2; j++) {
                 int temp = a[i][j];
-                a[i][j] = a[i][cols-1-j];
-                a[i][cols-1-j] = temp;
-
+                a[i][j] = a[i][cols - 1 - j];
+                a[i][cols - 1 - j] = temp;
             }
-
-
         }
-
         for( int[] arr : a){
-
             System.out.println(Arrays.toString(arr));
         }
     }
