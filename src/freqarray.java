@@ -13,4 +13,5 @@ public class freqarray {
             System.out.println("element"+"   |    "+"frequency");
             System.out.println(arr[i]+"   |   "+count);
         }
-    }}
+    }
+}
