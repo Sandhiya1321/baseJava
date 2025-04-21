@@ -19,8 +19,8 @@ public class bubbleSort {
 
     public static void main(String[] args) {
         int a[]={6,87,45,13,2};
-        int[] res=bubble_On(a);
-        System.out.println(Arrays.toString(res));
+//        int[] res=bubble_On(a);
+        System.out.println(Arrays.toString(bubble_On(a)));
 
     }
 }
