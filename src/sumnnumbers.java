@@ -13,4 +13,3 @@ public class sumnnumbers {
         }
         System.out.println(count);
     }}
-
