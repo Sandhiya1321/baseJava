@@ -2,15 +2,14 @@ import java.util.Arrays;
 
 public class overLoading {
     public static void main(String[] args) {
-int a;
-int b;
+        int a;
+        int b;
         sum(10,20);
         dis(90);
         dis();
         dis(10,30);
         name("sandhiya");
         System.out.println(arr(10,50));
-
     }
     static void sum(int a,int b){
         System.out.println(a+b);
