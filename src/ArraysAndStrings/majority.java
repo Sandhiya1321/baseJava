@@ -12,14 +12,14 @@ public class majority {
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
-        int majorityElement = findMajorityElement(array, n);
-        if (majorityElement != -1) {
-            System.out.println("Majority Element: " + majorityElement);
+        int majorEle = findMajor(array, n);
+        if (majorEle != -1) {
+            System.out.println( majorEle);
         } else {
             System.out.println("No Majority Element found.");
         }
     }
-    static int findMajorityElement(int[] array, int n) {
+    static int findMajor(int[] array, int n) {
         int candidate = findmajor(array, n);
         if (isMajority(array, n, candidate)) {
             return candidate;
