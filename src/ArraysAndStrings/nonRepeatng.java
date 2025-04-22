@@ -16,19 +16,18 @@ public class nonRepeatng {
         }
     }
 
-    static char frstnonreptchar(String str) {
-        int[] charCounts = new int[256];
-        for (int i = 0; i < str.length(); i++) {
-            char currentChar = str.charAt(i);
-            charCounts[currentChar]++;
-        }
-        for (int i = 0; i < str.length(); i++) {
-            char currentChar = str.charAt(i);
-            if (charCounts[currentChar] == 1) {
-                return currentChar;
-            }
-        }
-
-        return '\0';
-    }
+   static char frstnonreptchar(String str){
+        int[] charcount=new int[256];
+       for (int i = 0; i < str.length(); i++) {
+           char charCurr=str.charAt(i);
+           charcount[charCurr]++;
+       }
+       for (int i = 0; i < str.length(); i++) {
+           char currChar=str.charAt(i);
+           if(charcount[currChar]==1){
+               return currChar;
+           }
+       }
+       return '\0';
+   }
 }
