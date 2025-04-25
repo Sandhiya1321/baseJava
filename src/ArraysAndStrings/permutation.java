@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class permutation {
     public static void main(String[] args) {
         String input = "abc";
-        printLexicographicalPermutations(input);
+        Permutations(input);
     }
 
-    public static void printLexicographicalPermutations(String str) {
+    public static void Permutations(String str) {
         char[] chars = str.toCharArray();
         Arrays.sort(chars);
         System.out.println(String.valueOf(chars));
