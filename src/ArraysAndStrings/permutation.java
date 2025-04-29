@@ -7,7 +7,6 @@ public class permutation {
         String input = "abc";
         Permutations(input);
     }
-
     public static void Permutations(String str) {
         char[] chars = str.toCharArray();
         Arrays.sort(chars);

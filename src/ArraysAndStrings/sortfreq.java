@@ -1,28 +1,26 @@
 package ArraysAndStrings;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
-
 public class sortfreq {
     public static void main(String[] args) {
         int[] arr = {4, 4, 6, 7, 4, 6, 5};
-        Map<Integer, Integer> frequencyMap = new HashMap<>();
+        int n = arr.length;
+        int[] frequency = new int[n];
         for (int num : arr) {
-            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
+            frequency[num]++;
+        }
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (frequency[arr[i]] < frequency[arr[j]] ||
+                        (frequency[arr[i]] == frequency[arr[j]] && arr[i] > arr[j])) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
         }
 
-        int[] sortedArray = new int[arr.length];
-        AtomicInteger index = new AtomicInteger();
-        frequencyMap.entrySet().stream()
-                .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
-                .forEachOrdered(entry -> {
-                    for (int i = 0; i < entry.getValue(); i++) {
-                        sortedArray[index.getAndIncrement()] = entry.getKey();
-                    }
-                });
-
-        System.out.println(Arrays.toString(sortedArray));
+        // Print the result
+        System.out.println(Arrays.toString(arr));
     }
 }
