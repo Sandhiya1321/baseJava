@@ -2,7 +2,7 @@ package ArraysAndStrings;
 
 public class countdistinct {
         public static void main(String[] args) {
-            int[] arr = {1, 2, 2, 3, 4, 4};
+            int[] arr = {1, 2, 2, 3, 4, 4,5};
             int count = 0;
 
             for (int i = 0; i < arr.length; i++) {
@@ -19,7 +19,6 @@ public class countdistinct {
                 }
             }
 
-            System.out.println("Number of distinct elements: " + count);
+            System.out.println(count);
         }
     }
-
