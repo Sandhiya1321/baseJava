@@ -1,24 +1,12 @@
 package ArraysAndStrings;
 
-import java.util.HashMap;
-
-public class nonRepeating{
+public class NonRepeating {
     public static void main(String[] args) {
-        String input = "hello";
-        findNonRepeatingCharacters(input);
-    }
-
-    public static void findNonRepeatingCharacters(String str) {
-        HashMap<Character, Integer> charCount = new HashMap<>();
-
-        for (char c : str.toCharArray()) {
-            charCount.put(c, charCount.getOrDefault(c, 0) + 1);
-        }
-
+        String input = "sandhiya";
         System.out.print("Non-repeating characters: ");
-
-        for (char c : str.toCharArray()) {
-            if (charCount.get(c) == 1) {
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if (input.indexOf(c) == input.lastIndexOf(c)) {
                 System.out.print(c + " ");
             }
         }

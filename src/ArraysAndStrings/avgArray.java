@@ -9,7 +9,7 @@ public class avgArray {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        double average = sum / array.length;
+        double average = (double) sum / array.length;
         System.out.printf("The average of the array elements is: %.2f%n", average);
 
 
