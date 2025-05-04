@@ -17,7 +17,6 @@ public class insertionSort {
                     break;
                 }
             }
-
         }
         return arr;
     }

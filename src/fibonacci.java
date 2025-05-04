@@ -1,5 +1,4 @@
 public class fibonacci {
-
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         int n=6;
@@ -16,4 +15,3 @@ public class fibonacci {
     }
 
 }
-
