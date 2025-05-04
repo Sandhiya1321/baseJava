@@ -7,9 +7,6 @@ public class armstrongnum {
         System.out.println("enter a number:");
         int num=scan.nextInt();
         printResult(num);
-
-
-
     }
     public static boolean isArmstrong(int num) {
         int count=0;
