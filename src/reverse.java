@@ -1,7 +1,4 @@
-
-
 import java.util.Scanner;
-
 public class reverse {
     public static int reverse(int num) {
         int reverse=0;

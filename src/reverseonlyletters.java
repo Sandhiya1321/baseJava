@@ -1,9 +1,5 @@
-
 import java.util.Scanner;
 public class reverseonlyletters {
-
-
-
     public static String reverse(String str){
         char ch[]=str.toCharArray();
         int low=0;
