@@ -1,5 +1,5 @@
 package Searching;
-
+//ascending order
 public class orderAgnosticBinarySearch {
     public static void main(String[] args) {
         int[] nums={12,34,56,96,765,898};
