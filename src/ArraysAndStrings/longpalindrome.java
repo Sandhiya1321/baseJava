@@ -1,7 +1,5 @@
 package ArraysAndStrings;
 
-import java.util.Arrays;
-
 public class longpalindrome {
     public static void main(String[] args) {
         String[] arr={"abc","car","madam","racecar","apple"};
