@@ -6,19 +6,20 @@ import java.util.Scanner;
 //yime complexity-O(n*m)
 public class spiralMatrix {
     public static void main(String[] args) {
-//        int[][] arr={{1, 2, 3},
-//                {4, 5, 6},
-//                {7, 8, 9} };
-        Scanner scanner = new Scanner(System.in);
-            int rows = scanner.nextInt();
-            int cols = scanner.nextInt();
+    int[][] arr={{1, 2, 3},
+                {4, 5, 6},
+             {7, 8, 9} };
 
-            int[][] arr = new int[rows][cols];
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    arr[i][j] = scanner.nextInt();
-                }
-            }
+//        Scanner scanner = new Scanner(System.in);
+//            int rows = scanner.nextInt();
+//            int cols = scanner.nextInt();
+//
+//            int[][] arr = new int[rows][cols];
+//            for (int i = 0; i < rows; i++) {
+//                for (int j = 0; j < cols; j++) {
+//                    arr[i][j] = scanner.nextInt();
+//                }
+//            }
             int rowStart=0;
         int rowEnd=arr.length;
         int colStart=0;
