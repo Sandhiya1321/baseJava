@@ -8,10 +8,10 @@ public class palindromeChecker {
         System.out.println("Enter the String :");
         String str=scan.nextLine();
         if (isPalindrome(str)) {
-            System.out.println(str +" is a palindrome");
+            System.out.println(str +" is a Strings.palindrome");
         }
         else{
-            System.out.println(str+ " is not a palindrome");
+            System.out.println(str+ " is not a Strings.palindrome");
         }
     }
     static boolean isPalindrome(String str){

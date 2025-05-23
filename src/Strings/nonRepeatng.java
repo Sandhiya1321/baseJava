@@ -1,11 +1,10 @@
-package ArraysAndStrings;
+package Strings;
 
 import java.util.Scanner;
 
 public class nonRepeatng {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a string:");
         String input = scanner.nextLine();
 
         char result = frstnonreptchar(input);

@@ -1,3 +1,5 @@
+package Strings;
+
 import java.util.Scanner;
 public class palindrome {
     public static boolean isPalindrome(String str) {
@@ -17,10 +19,10 @@ public class palindrome {
         System.out.println("enter the String:"  );
         String a=scan.nextLine();
         if(isPalindrome(a)) {
-            System.out.println(a   +"  is palindrome");
+            System.out.println(a   +"  is Strings.palindrome");
         }
         else {
-            System.out.println(a  +" is not palindrome");
+            System.out.println(a  +" is not Strings.palindrome");
         }
     }
 

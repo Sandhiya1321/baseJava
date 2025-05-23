@@ -14,10 +14,10 @@ public class palrev {
         int rev=reverseNum(a);
         System.out.println("the reverse string:"+a);
         if(a==rev) {
-            System.out.println(a+"  is a palindrome");
+            System.out.println(a+"  is a Strings.palindrome");
         }
         else {
-            System.out.println(a+"  is not a palindrome");
+            System.out.println(a+"  is not a Strings.palindrome");
         }
     }
 
