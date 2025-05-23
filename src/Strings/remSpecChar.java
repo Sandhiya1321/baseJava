@@ -1,4 +1,4 @@
-package ArraysAndStrings;
+package Strings;
 
 public class remSpecChar {
     public static void main(String[] args) {
@@ -12,6 +12,6 @@ public class remSpecChar {
                 result.append(current);
             }
         }
-        System.out.println("Result without special characters: " + result.toString());
+        System.out.println(result.toString());
     }
 }

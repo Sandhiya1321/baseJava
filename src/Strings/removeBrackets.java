@@ -1,4 +1,4 @@
-package ArraysAndStrings;
+package Strings;
 
 public class removeBrackets {
     public static void main(String[] args) {
