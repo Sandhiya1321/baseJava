@@ -3,5 +3,4 @@ public class asciiChar{
         char ch='a';
         System.out.println((char)(ch+0));
     }
-
 }

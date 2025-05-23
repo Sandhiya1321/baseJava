@@ -1,6 +1,4 @@
-package ArraysAndStrings;
-
-import java.util.Scanner;
+package Arrays;
 
 public class avgArray {
     public static void main(String[] args) {
