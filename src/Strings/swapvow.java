@@ -1,3 +1,5 @@
+package Strings;
+
 public class swapvow {
     public static void main(String[] args) {
         String a="Hello World";
