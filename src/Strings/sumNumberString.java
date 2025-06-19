@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 public class sumNumberString {
     public static void main(String[] args) {
