@@ -2,13 +2,13 @@ package Strings;
 
 import java.util.Scanner;
 
-public class nonRepeatng {
+public class firstrnonRepeatng {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
 
         char result = frstnonreptchar(input);
-        if (result != '\0') {
+        if (result != '.') {
             System.out.println(result);
         } else {
             System.out.println("No non-repeating character found.");
@@ -27,6 +27,6 @@ public class nonRepeatng {
                return currChar;
            }
        }
-       return '\0';
+       return '.';
    }
 }
