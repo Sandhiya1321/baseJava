@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 public class feqChar {
     public static void main(String[] args) {
