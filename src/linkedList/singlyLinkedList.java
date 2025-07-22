@@ -55,6 +55,7 @@ public class singlyLinkedList {
         for (int i = 1; i < index; i++) {
             temp=temp.next;
         }
+        //by constructor
         Node node=new Node(val,temp.next);
         temp.next=node;
         size++;
