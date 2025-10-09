@@ -1,3 +1,5 @@
+package prepInsta;
+
 public class perfectNum {
     public static void main(String[] args) {
         int num=6;
