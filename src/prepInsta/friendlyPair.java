@@ -1,3 +1,5 @@
+package prepInsta;
+
 import java.util.Scanner;
 
 public class friendlyPair {
