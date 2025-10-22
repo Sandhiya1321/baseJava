@@ -1,4 +1,4 @@
-package prepInsta;
+package Number_system;
 
 import java.util.Scanner;
 

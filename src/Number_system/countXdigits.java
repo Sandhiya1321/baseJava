@@ -1,4 +1,4 @@
-package prepInsta;
+package Number_system;
 
 public class countXdigits {
     public static void main(String[] args) {

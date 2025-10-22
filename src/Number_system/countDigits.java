@@ -1,4 +1,4 @@
-package prepInsta;
+package Number_system;
 
 public class countDigits {
     public static void main(String[] args) {
