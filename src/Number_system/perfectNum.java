@@ -1,4 +1,4 @@
-package prepInsta;
+package Number_system;
 
 public class perfectNum {
     public static void main(String[] args) {

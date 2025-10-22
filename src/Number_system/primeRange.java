@@ -1,4 +1,4 @@
-package prepInsta;
+package Number_system;
 
 public class primeRange {
     public static void main(String[] args) {
