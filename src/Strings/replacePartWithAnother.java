@@ -12,9 +12,14 @@ public class replacePartWithAnother {
         }
         System.out.println(newStr);
     }
+    public static void rplc(String str,String word){
+        String stria=str.replaceAll(word,"");
+        System.out.println(stria);
+    }
     public static void main(String[] args) {
         String str = "This is the prepinsta";
         String word = "the";
         remove(str, word);
+        rplc(str,word);
     }
 }
