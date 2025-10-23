@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class sumMinAbsDif {
     public static void main(String[] args) {
