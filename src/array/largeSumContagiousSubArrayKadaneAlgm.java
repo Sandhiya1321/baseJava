@@ -1,6 +1,6 @@
 package array;
 
-public class largeSumContagiousSubarrayKadanesAlgm {
+public class largeSumContagiousSubArrayKadaneAlgm {
     public static int largeSum(int[] arr){
         int maxS=arr[0];
         int maxE=arr[0];
@@ -12,7 +12,7 @@ public class largeSumContagiousSubarrayKadanesAlgm {
     }
 
     public static void main(String[] args) {
-        int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] arr = {-2, -3, 4, -1, -3};
         System.out.println(largeSum(arr));
     }
 }
