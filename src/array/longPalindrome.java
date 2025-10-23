@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class longPalindrome {
     public static boolean palindrome(int n){

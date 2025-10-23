@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class reapele {
     public static void main(String[] args) {

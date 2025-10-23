@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class makeArrayEqual {
     public static boolean equal(int[] arr){

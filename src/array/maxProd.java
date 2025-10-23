@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class maxProd {
     public static int max(int[] arr){

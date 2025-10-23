@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class OddEvenArr {
     public static void main(String[] args) {
