@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class equilibriumSum {
     public static int sumeq(int[] arr){

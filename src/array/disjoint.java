@@ -1,4 +1,4 @@
-package Arrays;
+package array;
 
 public class disjoint {
     public static int check(int[] arr1,int[] arr2){
