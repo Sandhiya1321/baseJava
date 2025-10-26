@@ -12,4 +12,5 @@ public class sumnnumbers {
             count=count+i;
         }
         System.out.println(count);
-    }}
+    }
+}
