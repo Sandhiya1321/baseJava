@@ -3,7 +3,7 @@ package twoD;
 import java.util.Arrays;
 
 //o(n2)
-public class Searching {
+public class SearchingInMatrix {
     public static void main(String[] args) {
         int[][] arr={{12,13,14},
                 {1,24,45},

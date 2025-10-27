@@ -1,3 +1,5 @@
+package Number_system;
+
 import java.util.Scanner;
 
 public class maxNumOfHandShake {
