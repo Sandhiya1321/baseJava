@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.Arrays;
 
-public class permutation {
+public class permutationLexicography {
     public static void main(String[] args) {
         String input = "abc";
         Permutations(input);
@@ -26,6 +26,7 @@ public class permutation {
             }
             swap(chars, i, j);
             reverse(chars, i + 1);
+
             System.out.println(String.valueOf(chars));
         }
     }
