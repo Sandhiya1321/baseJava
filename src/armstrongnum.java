@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class armstrongnum {
+    //the number must be equal to sum of each digits power of total numbers
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner scan=new Scanner(System.in);
