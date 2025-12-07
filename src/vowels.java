@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class vowels {
     public static void main(String[] args) {
         String a = "Black Angel";

@@ -1,15 +1,13 @@
 import java.util.Scanner;
 
 public class armstrongnum {
+    //the number must be equal to sum of each digits power of total numbers
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner scan=new Scanner(System.in);
         System.out.println("enter a number:");
         int num=scan.nextInt();
         printResult(num);
-
-
-
     }
     public static boolean isArmstrong(int num) {
         int count=0;

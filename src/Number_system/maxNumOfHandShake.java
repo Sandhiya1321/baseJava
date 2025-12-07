@@ -1,0 +1,12 @@
+package Number_system;
+
+import java.util.Scanner;
+
+public class maxNumOfHandShake {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        int ans=((n-1)*n)/2;
+        System.out.println(ans);
+    }
+}

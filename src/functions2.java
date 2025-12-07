@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class functions2 {
-
-
     public static int power(int a,int expo) {
         int res=1;
         for(int i=1;i<=expo;i++) {

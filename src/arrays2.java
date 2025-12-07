@@ -1,5 +1,4 @@
 public class arrays2 {
-
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         int[][] add= new int[3][3];
@@ -12,6 +11,5 @@ public class arrays2 {
             System.out.println(    );
         }
     }
-
 }
 

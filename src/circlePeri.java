@@ -14,13 +14,8 @@ public class circlePeri {
         Scanner scan=new Scanner(System.in);
         System.out.println("enter the radius:");
         int radius=scan.nextInt();
-
-
         System.out.println(calperi(radius));
     }
-
-
-
 }
 
 
